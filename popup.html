@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prison Movement and Boss Fight Invites</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <h3>Move to Prison</h3>
+    <select id="prisonSelect">
+      <option value="1">Panama</option>
+      <option value="2">Alcatraz</option>
+      <option value="3">Guantanamo Bay</option>
+      <option value="4">Long Bay</option>
+      <option value="5">Utah</option>
+      <option value="6">San Quentin</option>
+      <option value="7">Attica</option>
+      <option value="8">McNeil Island</option>
+      <option value="9">Sing Sing</option>
+      <option value="10">Devils Island</option>
+    </select>
+    <button id="moveButton">Move</button>
+  </div>
+  <br>
+  <div>
+    <h3>Manage Boss Fight Invites</h3>
+    <input type="text" id="userIdInput" placeholder="Enter user ID">
+    <button id="addUserButton">Add User</button>
+    <ul id="userList"></ul>
+    <button id="inviteAllButton">Invite All</button>
+  </div>
+  <br>
+  <div>
+    <h3>Activate Skills</h3>
+    <button class="skillButton" data-skill="1">Underworld Connections</button>
+    <button class="skillButton" data-skill="2">Guard Connections</button>
+    <button class="skillButton" data-skill="3">Crippling Strikes</button>
+    <button class="skillButton" data-skill="6">Boss Hunter</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

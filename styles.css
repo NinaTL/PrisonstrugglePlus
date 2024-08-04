@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #userList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
